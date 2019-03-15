@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/updateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New name:"
+        tools:fontFamily="@font/amita" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:fontFamily="@font/amita"
+        android:hint="New Ph no:"
+        android:id="@+id/updatePhone"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        tools:fontFamily="@font/amita"
+        android:layout_marginTop="30dp"
+        android:hint="Correct Email"
+        android:id="@+id/updateEmail"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:fontFamily="@font/amita"
+        android:text="update"
+        android:id="@+id/updateBtn1"/>
+
+
+</LinearLayout>
